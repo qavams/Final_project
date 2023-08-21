@@ -1,0 +1,104 @@
+Gender,Age,Race1,Education,MaritalStatus,Work,Weight,Height,BMI,BPSysAve,BPDiaAve,DirectChol,TotChol,PhysActive,Diabetes
+male,44,White,College Grad,Divorced,Working,,,,104.0,73.0,1.55,5.15,Yes,No
+male,50,Mexican,8th Grade,Married,Working,83.6,162.0,31.85,124.0,82.0,1.11,6.88,No,Yes
+male,70,White,High School,Married,NotWorking,72.3,182.9,21.6,126.0,0.0,0.98,7.16,Yes,No
+female,54,White,College Grad,Divorced,Working,108.7,151.0,47.7,127.0,78.0,1.03,5.2,Yes,Yes
+female,3,Hispanic,,,,13.0,90.8,15.77,,,,,,No
+female,2,White,,,,,,,,,,,,No
+male,58,White,Some College,Married,Working,83.3,186.1,24.1,110.0,79.0,1.16,5.28,No,No
+male,46,White,College Grad,Married,Working,67.9,186.8,19.46,117.0,62.0,1.94,5.56,Yes,No
+female,2,Mexican,,,,13.1,87.8,16.99,,,,,,No
+male,4,White,,,,15.6,102.5,14.85,,,,,,No
+female,62,White,Some College,Widowed,Working,102.5,167.7,36.45,140.0,68.0,1.14,5.07,No,No
+male,52,Black,9 - 11th Grade,Married,NotWorking,83.7,170.6,28.8,139.0,85.0,,,No,No
+female,65,Black,Some College,Married,Working,65.1,164.7,24.0,108.0,67.0,2.43,7.34,Yes,No
+female,10,White,,,,35.3,142.8,17.31,94.0,54.0,1.94,4.4,,No
+female,44,White,Some College,Married,NotWorking,54.7,169.3,19.1,112.0,68.0,2.51,4.89,Yes,No
+female,31,White,College Grad,Married,Working,56.3,169.5,19.6,89.0,58.0,1.53,4.53,Yes,No
+male,24,Other,Some College,NeverMarried,Looking,85.5,184.1,25.2,143.0,59.0,1.19,4.11,Yes,No
+female,49,Black,College Grad,NeverMarried,Working,90.7,170.1,31.3,135.0,87.0,1.84,5.53,Yes,No
+male,26,Mexican,8th Grade,LivePartner,NotWorking,80.2,160.1,31.3,136.0,55.0,0.91,4.71,No,No
+male,0,White,,,,5.6,,,,,,,,
+male,32,White,College Grad,Married,Working,80.1,179.0,25.0,104.0,73.0,1.32,5.53,No,No
+female,64,White,Some College,Married,NotWorking,66.5,159.5,26.1,127.0,65.0,2.25,5.12,No,No
+male,50,Black,High School,Married,NotWorking,85.7,171.3,29.2,116.0,76.0,1.06,4.73,No,No
+male,33,Other,Some College,Married,Working,69.7,168.8,24.5,105.0,73.0,1.24,3.59,Yes,No
+female,80,White,9 - 11th Grade,Married,NotWorking,73.3,158.5,29.2,105.0,49.0,1.03,4.11,No,No
+female,45,White,High School,Separated,Working,67.9,159.0,26.9,,,2.17,5.3,Yes,No
+female,6,Mexican,,,,25.3,113.6,19.6,,,,,,No
+female,1,White,,,,11.8,,,,,,,,No
+female,9,Other,,,,37.7,141.0,18.96,94.0,49.0,,,,No
+female,80,White,College Grad,Widowed,Looking,68.0,161.3,26.1,132.0,70.0,2.4,5.33,No,No
+female,0,White,,,,8.1,,,,,,,,
+male,0,White,,,,11.2,,,,,,,,
+male,9,White,,,,27.5,130.3,16.2,94.0,43.0,1.19,3.49,,No
+female,58,Other,Some College,Divorced,Working,44.1,155.7,18.19,103.0,68.0,1.81,7.47,Yes,No
+female,17,Mexican,,,NotWorking,66.9,159.1,26.43,,,1.66,4.55,No,No
+female,61,Black,9 - 11th Grade,Divorced,NotWorking,120.4,160.1,46.97,132.0,78.0,1.42,4.6,No,Yes
+female,36,Black,Some College,Separated,Working,91.5,165.2,33.53,,,1.91,5.74,No,No
+female,50,White,Some College,Married,Working,71.3,151.8,30.9,,,1.6,6.78,No,No
+male,19,White,,,NotWorking,73.6,178.3,23.2,,,1.66,4.09,Yes,No
+female,30,Mexican,8th Grade,Married,NotWorking,64.7,159.5,25.43,104.0,58.0,1.47,5.9,No,No
+male,48,White,College Grad,Married,Working,78.5,185.4,22.84,118.0,81.0,1.97,5.38,No,No
+female,69,White,Some College,Widowed,NotWorking,73.0,162.8,27.54,144.0,61.0,1.6,6.72,Yes,No
+female,25,White,High School,Married,NotWorking,,,,98.0,78.0,1.09,3.78,No,No
+female,3,White,,,,14.2,97.0,15.1,,,,,,No
+female,62,White,High School,Married,NotWorking,71.8,154.9,29.9,137.0,91.0,2.15,5.38,Yes,No
+female,38,White,9 - 11th Grade,Married,Working,65.9,178.6,20.7,101.0,76.0,2.02,4.84,Yes,No
+female,58,Other,Some College,Married,Working,55.7,154.4,23.4,144.0,98.0,1.24,6.18,Yes,No
+female,63,White,College Grad,Married,NotWorking,82.6,166.7,29.7,172.0,94.0,1.78,6.93,Yes,No
+male,40,White,9 - 11th Grade,NeverMarried,NotWorking,106.2,178.8,33.2,122.0,65.0,1.19,4.73,Yes,No
+male,30,White,High School,Married,Working,125.5,179.2,39.1,134.0,80.0,,,No,No
+female,23,White,Some College,LivePartner,Working,63.1,162.1,24.0,112.0,49.0,1.47,5.38,Yes,No
+male,32,Black,9 - 11th Grade,NeverMarried,NotWorking,91.1,178.8,28.5,136.0,94.0,,,No,No
+male,80,White,High School,Widowed,NotWorking,,182.6,,153.0,52.0,0.72,3.65,No,Yes
+female,49,White,College Grad,Married,Working,77.8,161.6,29.79,120.0,72.0,1.47,7.01,No,No
+female,25,Black,College Grad,NeverMarried,Working,147.2,167.7,52.34,133.0,72.0,0.88,4.6,No,No
+female,31,Black,College Grad,Married,Working,77.9,154.5,32.63,111.0,74.0,1.37,4.71,Yes,No
+female,3,Hispanic,,,,18.2,105.8,16.3,,,,,,No
+male,47,Hispanic,Some College,Married,Working,79.2,178.7,24.8,120.0,70.0,1.6,6.49,No,No
+male,38,Mexican,High School,LivePartner,NotWorking,97.1,173.5,32.26,116.0,83.0,0.65,4.37,Yes,No
+female,36,Black,Some College,LivePartner,Working,113.6,180.9,34.7,120.0,76.0,1.09,5.12,Yes,No
+male,21,White,High School,NeverMarried,Working,170.5,173.2,56.8,134.0,77.0,,,Yes,No
+female,56,Mexican,8th Grade,Widowed,Working,75.0,144.4,35.97,146.0,65.0,1.32,5.02,No,No
+female,59,White,9 - 11th Grade,LivePartner,NotWorking,53.6,155.8,22.1,114.0,69.0,1.37,4.29,Yes,No
+female,23,White,High School,LivePartner,Working,58.9,167.4,21.02,99.0,57.0,1.19,3.31,No,No
+male,28,White,College Grad,NeverMarried,Working,69.5,176.8,22.2,128.0,68.0,1.32,5.43,Yes,No
+female,26,White,Some College,NeverMarried,Working,60.2,164.4,22.3,125.0,66.0,1.53,4.86,Yes,No
+female,34,White,Some College,NeverMarried,Working,53.1,153.9,22.42,101.0,55.0,1.6,3.49,No,No
+male,27,White,High School,NeverMarried,Working,95.0,177.1,30.29,123.0,85.0,1.01,5.48,Yes,No
+male,32,White,Some College,Married,Working,98.5,171.7,33.41,122.0,94.0,0.8,5.82,Yes,No
+male,0,White,,,,8.0,,,,,,,,
+male,41,Black,Some College,Married,Working,99.7,181.2,30.4,134.0,92.0,1.97,5.12,Yes,No
+male,2,Hispanic,,,,10.7,85.1,14.8,,,,,,No
+female,23,White,Some College,NeverMarried,Working,76.1,166.7,27.39,126.0,78.0,1.91,5.22,Yes,No
+male,3,White,,,,14.8,91.5,17.7,,,,,,No
+male,24,Black,Some College,NeverMarried,NotWorking,75.9,178.4,23.8,114.0,73.0,1.6,3.67,Yes,No
+female,45,Other,9 - 11th Grade,Married,Working,62.2,163.3,23.3,112.0,70.0,2.43,5.97,No,No
+male,12,White,,,,33.1,147.4,15.2,96.0,75.0,1.42,4.45,Yes,No
+female,12,Hispanic,,,,37.9,152.9,16.2,96.0,42.0,1.76,4.6,Yes,No
+female,43,White,College Grad,Married,Working,76.6,166.2,27.73,124.0,82.0,1.73,4.99,Yes,No
+male,12,White,,,,39.6,155.4,16.4,90.0,64.0,1.4,3.8,Yes,No
+male,48,White,Some College,Married,Working,66.5,180.2,20.5,91.0,66.0,,,Yes,No
+female,63,White,College Grad,Married,Working,87.5,173.6,29.03,115.0,73.0,1.16,4.09,Yes,No
+male,57,White,Some College,Married,Working,75.8,164.7,27.9,116.0,76.0,1.14,5.84,No,No
+male,9,White,,,,33.3,143.6,16.15,102.0,54.0,1.76,4.53,,No
+female,31,Other,High School,Married,NotWorking,89.0,159.0,35.2,101.0,70.0,1.63,4.91,No,No
+female,54,White,9 - 11th Grade,Divorced,NotWorking,56.2,162.1,21.39,104.0,52.0,1.6,4.42,No,No
+male,1,White,,,,11.2,,,,,,,,No
+female,9,Mexican,,,,48.7,133.9,27.2,104.0,58.0,1.37,3.85,,No
+female,2,Other,,,,14.2,89.5,17.7,,,,,,No
+male,15,Black,,,,61.7,170.2,21.3,113.0,64.0,1.24,3.54,No,No
+male,2,White,,,,13.7,94.1,15.47,,,,,,No
+female,1,Mexican,,,,11.6,,,,,,,,No
+male,53,White,College Grad,Married,Working,101.9,180.3,31.3,133.0,96.0,0.8,4.03,Yes,No
+male,53,White,Some College,Divorced,Working,95.2,167.1,34.1,118.0,79.0,1.16,6.75,No,No
+male,27,Black,High School,NeverMarried,Working,63.4,168.4,22.4,130.0,73.0,1.37,4.5,Yes,No
+female,17,White,,,NotWorking,71.1,173.8,23.54,102.0,58.0,1.29,3.83,No,No
+female,35,Other,College Grad,NeverMarried,Working,60.5,156.8,24.6,117.0,71.0,1.34,4.42,No,No
+female,53,White,Some College,Married,Working,91.1,168.0,32.3,115.0,69.0,1.19,4.99,No,No
+female,11,Black,,,,42.5,153.6,18.01,114.0,58.0,1.63,3.75,,No
+male,24,Other,High School,NeverMarried,Working,75.6,181.1,23.05,107.0,56.0,1.32,3.05,Yes,No
+male,32.0,Other,9 - 11th Grade,LivePartner,NotWorking,563.0,45.0,43.0,54.0,45.0,54.0,4.0,Yes,No
+male,12.0,White,9 - 11th Grade,LivePartner,NotWorking,12.0,12.0,23.0,23.0,15.0,69.0,14.0,Yes,No
+female,12.0,White,9 - 11th Grade,LivePartner,NotWorking,12.0,13.0,15.0,16.0,14.0,16.0,48.0,Yes,Yes

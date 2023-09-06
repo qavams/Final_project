@@ -41,83 +41,11 @@
         "wires": []
     },
     {
-        "id": "15b9e64def6321af",
-        "type": "ui_text_input",
-        "z": "22fbbef3087d5019",
-        "name": "",
-        "label": "Height",
-        "tooltip": "",
-        "group": "e4f8e4dacaa1ec29",
-        "order": 8,
-        "width": 0,
-        "height": 0,
-        "passthru": false,
-        "mode": "number",
-        "delay": "0",
-        "topic": "Height",
-        "topicType": "msg",
-        "x": 90,
-        "y": 340,
-        "wires": [
-            [
-                "33e52faf0c3e5d5a"
-            ]
-        ]
-    },
-    {
-        "id": "cf4a6072cff94391",
-        "type": "ui_text_input",
-        "z": "22fbbef3087d5019",
-        "name": "",
-        "label": "Weight",
-        "tooltip": "",
-        "group": "e4f8e4dacaa1ec29",
-        "order": 7,
-        "width": 0,
-        "height": 0,
-        "passthru": false,
-        "mode": "number",
-        "delay": "0",
-        "topic": "Weight",
-        "topicType": "msg",
-        "x": 90,
-        "y": 300,
-        "wires": [
-            [
-                "95be80d07d09bda2"
-            ]
-        ]
-    },
-    {
-        "id": "0a1452b66d65e0fa",
-        "type": "ui_text_input",
-        "z": "22fbbef3087d5019",
-        "name": "",
-        "label": "Age",
-        "tooltip": "",
-        "group": "e4f8e4dacaa1ec29",
-        "order": 2,
-        "width": 0,
-        "height": 0,
-        "passthru": false,
-        "mode": "number",
-        "delay": "0",
-        "topic": "age",
-        "topicType": "msg",
-        "x": 90,
-        "y": 100,
-        "wires": [
-            [
-                "0493c40866a361bb"
-            ]
-        ]
-    },
-    {
         "id": "e0cfa9726c5a5070",
         "type": "ui_dropdown",
         "z": "22fbbef3087d5019",
         "name": "",
-        "label": "Gender",
+        "label": "AgeDecade",
         "tooltip": "",
         "place": "Select option",
         "group": "e4f8e4dacaa1ec29",
@@ -128,20 +56,50 @@
         "multiple": false,
         "options": [
             {
-                "label": "female",
-                "value": "female",
+                "label": "0-9",
+                "value": "0-9",
                 "type": "str"
             },
             {
-                "label": "male",
-                "value": "male",
+                "label": "10-19",
+                "value": "10-19",
+                "type": "str"
+            },
+            {
+                "label": "20-29",
+                "value": "20-29",
+                "type": "str"
+            },
+            {
+                "label": "30-39",
+                "value": "30-39",
+                "type": "str"
+            },
+            {
+                "label": "40-49",
+                "value": "40-49",
+                "type": "str"
+            },
+            {
+                "label": "50-59",
+                "value": "50-59",
+                "type": "str"
+            },
+            {
+                "label": "60-69",
+                "value": "60-69",
+                "type": "str"
+            },
+            {
+                "label": "70+",
+                "value": "70+",
                 "type": "str"
             }
         ],
         "payload": "",
-        "topic": "Gender",
+        "topic": "AgeDecade",
         "topicType": "msg",
-        "x": 100,
+        "x": 90,
         "y": 60,
         "wires": [
             [
@@ -155,7 +113,7 @@
         "z": "22fbbef3087d5019",
         "name": "",
         "group": "e4f8e4dacaa1ec29",
-        "order": 17,
+        "order": 15,
         "width": 0,
         "height": 0,
         "passthru": false,
@@ -236,7 +194,7 @@
         "tooltip": "",
         "place": "Select option",
         "group": "e4f8e4dacaa1ec29",
-        "order": 3,
+        "order": 2,
         "width": 0,
         "height": 0,
         "passthru": true,
@@ -271,11 +229,11 @@
         "payload": "",
         "topic": "Race1",
         "topicType": "msg",
-        "x": 90,
-        "y": 140,
+        "x": 70,
+        "y": 100,
         "wires": [
             [
-                "ac160d3389cfeb06"
+                "0493c40866a361bb"
             ]
         ]
     },
@@ -284,107 +242,50 @@
         "type": "ui_dropdown",
         "z": "22fbbef3087d5019",
         "name": "",
-        "label": "Education",
+        "label": "HealthGen",
         "tooltip": "",
         "place": "Select option",
         "group": "e4f8e4dacaa1ec29",
-        "order": 4,
+        "order": 7,
         "width": 0,
         "height": 0,
         "passthru": true,
         "multiple": false,
         "options": [
             {
-                "label": "8th Grade",
-                "value": "8th Grade",
+                "label": "Excellent",
+                "value": "Excellent",
                 "type": "str"
             },
             {
-                "label": "9 - 11th Grade",
-                "value": "9 - 11th Grade",
+                "label": "Fair",
+                "value": "Fair",
                 "type": "str"
             },
             {
-                "label": "College Grad",
-                "value": "College Grad",
+                "label": "Good",
+                "value": "Good",
                 "type": "str"
             },
             {
-                "label": "High School",
-                "value": "High School",
+                "label": "Poor",
+                "value": "Poor",
                 "type": "str"
             },
             {
-                "label": "Some College",
-                "value": "Some College",
+                "label": "Vgood",
+                "value": "Vgood",
                 "type": "str"
             }
         ],
         "payload": "",
-        "topic": "Education",
+        "topic": "HealthGen",
         "topicType": "msg",
-        "x": 100,
-        "y": 180,
+        "x": 90,
+        "y": 300,
         "wires": [
             [
-                "90e50ad170649c01"
-            ]
-        ]
-    },
-    {
-        "id": "f8164edb4882cb23",
-        "type": "ui_dropdown",
-        "z": "22fbbef3087d5019",
-        "name": "",
-        "label": "MaritalStatus",
-        "tooltip": "",
-        "place": "Select option",
-        "group": "e4f8e4dacaa1ec29",
-        "order": 5,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "multiple": false,
-        "options": [
-            {
-                "label": "Divorced",
-                "value": "Divorced",
-                "type": "str"
-            },
-            {
-                "label": "LivePartner",
-                "value": "LivePartner",
-                "type": "str"
-            },
-            {
-                "label": "Married",
-                "value": "Married",
-                "type": "str"
-            },
-            {
-                "label": "NeverMarried",
-                "value": "NeverMarried",
-                "type": "str"
-            },
-            {
-                "label": "Separated",
-                "value": "Separated",
-                "type": "str"
-            },
-            {
-                "label": "Widowed",
-                "value": "Widowed",
-                "type": "str"
-            }
-        ],
-        "payload": "",
-        "topic": "MaritalStatus",
-        "topicType": "msg",
-        "x": 110,
-        "y": 220,
-        "wires": [
-            [
-                "bdca13641a70a891"
+                "95be80d07d09bda2"
             ]
         ]
     },
@@ -397,7 +298,7 @@
         "tooltip": "",
         "place": "Select option",
         "group": "e4f8e4dacaa1ec29",
-        "order": 6,
+        "order": 4,
         "width": 0,
         "height": 0,
         "passthru": true,
@@ -422,11 +323,11 @@
         "payload": "",
         "topic": "Work",
         "topicType": "msg",
-        "x": 90,
-        "y": 260,
+        "x": 70,
+        "y": 180,
         "wires": [
             [
-                "bc6068a394e2bdf1"
+                "90e50ad170649c01"
             ]
         ]
     },
@@ -465,78 +366,6 @@
         "wires": []
     },
     {
-        "id": "8b61d3a67713dc9b",
-        "type": "ui_text_input",
-        "z": "22fbbef3087d5019",
-        "name": "",
-        "label": "BMI",
-        "tooltip": "",
-        "group": "e4f8e4dacaa1ec29",
-        "order": 9,
-        "width": 0,
-        "height": 0,
-        "passthru": false,
-        "mode": "number",
-        "delay": "0",
-        "topic": "BMI",
-        "topicType": "msg",
-        "x": 90,
-        "y": 380,
-        "wires": [
-            [
-                "75051db30899297b"
-            ]
-        ]
-    },
-    {
-        "id": "08c1e23aa9972ee8",
-        "type": "ui_text_input",
-        "z": "22fbbef3087d5019",
-        "name": "",
-        "label": "BPSysAve",
-        "tooltip": "",
-        "group": "e4f8e4dacaa1ec29",
-        "order": 10,
-        "width": 0,
-        "height": 0,
-        "passthru": false,
-        "mode": "number",
-        "delay": "0",
-        "topic": "BPSysAve",
-        "topicType": "msg",
-        "x": 110,
-        "y": 420,
-        "wires": [
-            [
-                "a493b8a050521fa2"
-            ]
-        ]
-    },
-    {
-        "id": "4fb8b2f2c8536a48",
-        "type": "ui_text_input",
-        "z": "22fbbef3087d5019",
-        "name": "",
-        "label": "BPDiaAve",
-        "tooltip": "",
-        "group": "e4f8e4dacaa1ec29",
-        "order": 11,
-        "width": 0,
-        "height": 0,
-        "passthru": false,
-        "mode": "number",
-        "delay": "0",
-        "topic": "BPDiaAve",
-        "topicType": "msg",
-        "x": 110,
-        "y": 460,
-        "wires": [
-            [
-                "539ee6f5ece2ae53"
-            ]
-        ]
-    },
-    {
         "id": "a3527577a1f4a58b",
         "type": "ui_text_input",
         "z": "22fbbef3087d5019",
@@ -544,7 +373,7 @@
         "label": "DirectChol",
         "tooltip": "",
         "group": "e4f8e4dacaa1ec29",
-        "order": 12,
+        "order": 5,
         "width": 0,
         "height": 0,
         "passthru": false,
@@ -552,11 +381,11 @@
         "delay": "0",
         "topic": "DirectChol",
         "topicType": "msg",
-        "x": 110,
-        "y": 500,
+        "x": 90,
+        "y": 220,
         "wires": [
             [
-                "fe2039f325449262"
+                "bdca13641a70a891"
             ]
         ]
     },
@@ -568,7 +397,7 @@
         "label": "TotChol",
         "tooltip": "",
         "group": "e4f8e4dacaa1ec29",
-        "order": 13,
+        "order": 6,
         "width": 0,
         "height": 0,
         "passthru": false,
@@ -576,11 +405,11 @@
         "delay": "0",
         "topic": "TotChol",
         "topicType": "msg",
-        "x": 100,
-        "y": 540,
+        "x": 80,
+        "y": 260,
         "wires": [
             [
-                "93a1c424acc6ecbf"
+                "bc6068a394e2bdf1"
             ]
         ]
     },
@@ -589,35 +418,35 @@
         "type": "ui_dropdown",
         "z": "22fbbef3087d5019",
         "name": "",
-        "label": "PhysActive",
+        "label": "Depressed",
         "tooltip": "",
         "place": "Select option",
         "group": "e4f8e4dacaa1ec29",
-        "order": 15,
+        "order": 8,
         "width": 0,
         "height": 0,
         "passthru": true,
         "multiple": false,
         "options": [
             {
-                "label": "Yes",
-                "value": "Yes",
+                "label": "Most",
+                "value": "Most",
                 "type": "str"
             },
             {
-                "label": "No",
-                "value": "No",
+                "label": "Several",
+                "value": "Several",
                 "type": "str"
             }
         ],
         "payload": "",
-        "topic": "PhysActive",
+        "topic": "Depressed",
         "topicType": "msg",
-        "x": 110,
-        "y": 580,
+        "x": 90,
+        "y": 340,
         "wires": [
             [
-                "07c86b2203bd21bc"
+                "33e52faf0c3e5d5a"
             ]
         ]
     },
@@ -626,7 +455,7 @@
         "type": "ui_text",
         "z": "22fbbef3087d5019",
         "group": "e4f8e4dacaa1ec29",
-        "order": 15,
+        "order": 16,
         "width": 0,
         "height": 0,
         "name": "",
@@ -656,7 +485,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 250,
+        "x": 270,
         "y": 60,
         "wires": [
             []
@@ -1003,6 +832,257 @@
         "wires": [
             [
                 "26352201eccaacdb"
+            ]
+        ]
+    },
+    {
+        "id": "8b61d3a67713dc9b",
+        "type": "ui_text_input",
+        "z": "22fbbef3087d5019",
+        "name": "",
+        "label": "Poverty",
+        "tooltip": "",
+        "group": "e4f8e4dacaa1ec29",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "mode": "number",
+        "delay": "0",
+        "topic": "Poverty",
+        "topicType": "msg",
+        "x": 80,
+        "y": 140,
+        "wires": [
+            [
+                "ac160d3389cfeb06"
+            ]
+        ]
+    },
+    {
+        "id": "3103eedbd3d288eb",
+        "type": "ui_dropdown",
+        "z": "22fbbef3087d5019",
+        "name": "",
+        "label": "SleepTrouble",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "e4f8e4dacaa1ec29",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "No",
+                "value": "No",
+                "type": "str"
+            },
+            {
+                "label": "Yes",
+                "value": "Yes",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "SleepTrouble",
+        "topicType": "msg",
+        "x": 90,
+        "y": 380,
+        "wires": [
+            [
+                "75051db30899297b"
+            ]
+        ]
+    },
+    {
+        "id": "6bb3aca783ee33c3",
+        "type": "ui_dropdown",
+        "z": "22fbbef3087d5019",
+        "name": "",
+        "label": "SmokeNow",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "e4f8e4dacaa1ec29",
+        "order": 10,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Yes",
+                "value": "Yes",
+                "type": "str"
+            },
+            {
+                "label": "No",
+                "value": "No",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "SmokeNow",
+        "topicType": "msg",
+        "x": 90,
+        "y": 420,
+        "wires": [
+            [
+                "a493b8a050521fa2"
+            ]
+        ]
+    },
+    {
+        "id": "329749584f5ac167",
+        "type": "ui_dropdown",
+        "z": "22fbbef3087d5019",
+        "name": "",
+        "label": "PregnantNow",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "e4f8e4dacaa1ec29",
+        "order": 14,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "No",
+                "value": "No",
+                "type": "str"
+            },
+            {
+                "label": "Yes",
+                "value": "Yes",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "PregnantNow",
+        "topicType": "msg",
+        "x": 100,
+        "y": 580,
+        "wires": [
+            [
+                "07c86b2203bd21bc"
+            ]
+        ]
+    },
+    {
+        "id": "a39b2468da3bf1cb",
+        "type": "ui_dropdown",
+        "z": "22fbbef3087d5019",
+        "name": "",
+        "label": "HardDrugs",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "e4f8e4dacaa1ec29",
+        "order": 11,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Yes",
+                "value": "Yes",
+                "type": "str"
+            },
+            {
+                "label": "No",
+                "value": "No",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "HardDrugs",
+        "topicType": "msg",
+        "x": 90,
+        "y": 460,
+        "wires": [
+            [
+                "539ee6f5ece2ae53"
+            ]
+        ]
+    },
+    {
+        "id": "5a7373ac994e03b0",
+        "type": "ui_dropdown",
+        "z": "22fbbef3087d5019",
+        "name": "",
+        "label": "SameSex",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "e4f8e4dacaa1ec29",
+        "order": 12,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Yes",
+                "value": "Yes",
+                "type": "str"
+            },
+            {
+                "label": "No",
+                "value": "No",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "SameSex",
+        "topicType": "msg",
+        "x": 80,
+        "y": 500,
+        "wires": [
+            [
+                "fe2039f325449262"
+            ]
+        ]
+    },
+    {
+        "id": "7c611dc55bff39bd",
+        "type": "ui_dropdown",
+        "z": "22fbbef3087d5019",
+        "name": "",
+        "label": "SexOrientation",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "e4f8e4dacaa1ec29",
+        "order": 13,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Bisexual",
+                "value": "Bisexual",
+                "type": "str"
+            },
+            {
+                "label": "Heterosexual",
+                "value": "Heterosexual",
+                "type": "str"
+            },
+            {
+                "label": "Homosexual",
+                "value": "Homosexual",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "SexOrientation",
+        "topicType": "msg",
+        "x": 100,
+        "y": 540,
+        "wires": [
+            [
+                "93a1c424acc6ecbf"
             ]
         ]
     },
